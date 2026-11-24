@@ -1,0 +1,98 @@
+{
+ "c01": {
+  "post": "Post 01, Thu 26 Nov 2026",
+  "posted": false
+ },
+ "c02": {
+  "post": "Post 02, Sun 29 Nov 2026",
+  "posted": false
+ },
+ "c03": {
+  "post": "Post 03, Wed 02 Dec 2026",
+  "posted": false
+ },
+ "c04": {
+  "post": "Post 04, Sat 05 Dec 2026",
+  "posted": false
+ },
+ "c05": {
+  "post": "Post 05, Tue 08 Dec 2026",
+  "posted": false
+ },
+ "c06": {
+  "post": "Post 06, Fri 11 Dec 2026",
+  "posted": false
+ },
+ "c18": {
+  "post": "Post 07, Mon 14 Dec 2026",
+  "posted": false
+ },
+ "c08": {
+  "post": "Post 08, Thu 17 Dec 2026",
+  "posted": false
+ },
+ "c09": {
+  "post": "Post 09, Sun 20 Dec 2026",
+  "posted": false
+ },
+ "c14": {
+  "post": "Post 10, Wed 23 Dec 2026",
+  "posted": false
+ },
+ "c07": {
+  "post": "Post 11, Sat 26 Dec 2026",
+  "posted": false
+ },
+ "c12": {
+  "post": "Post 12, Tue 29 Dec 2026",
+  "posted": false
+ },
+ "c13": {
+  "post": "Post 13, Fri 01 Jan 2027",
+  "posted": false
+ },
+ "c10": {
+  "post": "Post 14, Mon 04 Jan 2027",
+  "posted": false
+ },
+ "c15": {
+  "post": "Post 15, Thu 07 Jan 2027",
+  "posted": false
+ },
+ "c16": {
+  "post": "Post 16, Sun 10 Jan 2027",
+  "posted": false
+ },
+ "c17": {
+  "post": "Post 17, Wed 13 Jan 2027",
+  "posted": false
+ },
+ "c11": {
+  "post": "Post 18, Sat 16 Jan 2027",
+  "posted": false
+ },
+ "c19": {
+  "post": "Post 19, Tue 19 Jan 2027",
+  "posted": false
+ },
+ "c20": {
+  "post": "Post 20, Fri 22 Jan 2027",
+  "posted": false
+ },
+ "c21": {
+  "post": "Post 21, Mon 25 Jan 2027",
+  "posted": false
+ },
+ "c22": {
+  "post": "Post 22, Thu 28 Jan 2027",
+  "posted": false
+ },
+ "c23": {
+  "post": "Post 23, Sun 31 Jan 2027",
+  "posted": false
+ },
+ "c24": {
+  "post": "Post 24, Wed 03 Feb 2027",
+  "posted": false
+ }
+}
