@@ -367,6 +367,18 @@ html[data-t="close"] .stk,html[data-t="close"] .pinned{animation:none}
 .capbox header{display:flex;align-items:center;justify-content:space-between;gap:10px}
 .capbox p{font-size:18px;line-height:1.5}
 .capbox p[lang="ar"]{font-family:var(--arabic);font-size:19px;line-height:1.9;text-align:right}
+.capsheet{margin-top:40px;padding:10px 30px 18px}
+.caprow{display:grid;grid-template-columns:minmax(0,330px) minmax(0,1fr);gap:30px;align-items:start;padding:26px 0;border-bottom:1px solid var(--line)}
+.caprow:last-child{border-bottom:0}
+.caphead{display:flex;gap:18px;align-items:flex-start}
+.caphead .ttl{text-decoration:none;display:block}
+.caphead .ttl small{display:block;font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.caphead .ttl b{display:block;font-size:22px;font-weight:600;line-height:1.15;margin-top:3px}
+.caphead .ttl:hover b{color:var(--red)}
+.caprow .caps{margin-top:0}
+.tbc{color:var(--muted);font-style:italic}
+@media (max-width:1000px){.caprow{grid-template-columns:minmax(0,1fr);gap:16px}}
+@media (max-width:760px){.capsheet{padding:6px 14px 10px}.caphead .tear{display:none}}
 .copy{border:2px solid var(--red);background:var(--white);color:var(--red);border-radius:999px;font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;padding:3px 12px 2px}
 .copy:hover{background:var(--red);color:var(--white)}
 
@@ -547,7 +559,7 @@ html[data-t="close"] .stk,html[data-t="close"] .pinned{animation:none}
 </footer>
 <script>
 (() => {
-  const CFG = {salt:'3/b/jkecb0eY1iexr+FHoA==', iter:600000};
+  const CFG = {salt:'BuC37hui2vFHA5WSwuderQ==', iter:600000};
   const SKEY = 'vimtocc-key';
   const b64 = s => Uint8Array.from(atob(s), c => c.charCodeAt(0));
   const card = document.getElementById('gate-card'), dots = document.getElementById('dots'), msg = document.getElementById('gate-msg');
